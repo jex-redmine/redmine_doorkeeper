@@ -1,16 +1,1 @@
 = redmine_doorkeeper
-
-To run the local engine server:
-
-```
-bundle install
-bundle exec rake doorkeeper:server
-````
-
-By default, it uses the latest Rails version with ActiveRecord. To run the
-tests with a specific Rails version:
-
-```
-BUNDLE_GEMFILE=gemfiles/rails_6_0.gemfile bundle exec rake
-```
-
