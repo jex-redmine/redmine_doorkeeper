@@ -3,7 +3,7 @@
 To run the local engine server:
 
 ```
-bundle install
+bundle install –without development test 
 bundle exec rake doorkeeper:server
 ````
 
@@ -19,11 +19,11 @@ Installation
 Type below commands:
 ```
 $ cd $RAILS_ROOT/plugins  
-$ git clone git://github.com/redmine_doorkeeper/redmine_doorkeeper.git  
+$ git clone https://github.com/jex-redmine/redmine_doorkeeper.git
 ```
 Create database tables:
 ```
-rake redmine:plugins:migrate RAILS_ENV=production
+bundle exec rake redmine:plugins:migrate NAME=redmine_doorkeeper RAILS_ENV=production
 ```
 
 Then, restart your Redmine.
