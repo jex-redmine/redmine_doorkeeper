@@ -19,7 +19,7 @@ Installation
 Type below commands:
 ```
 $ cd $RAILS_ROOT/plugins  
-$ git clone git://github.com/suer/redmine_oauth_provider.git  
+$ git clone git://github.com/redmine_doorkeeper/redmine_doorkeeper.git  
 ```
 Create database tables:
 ```
