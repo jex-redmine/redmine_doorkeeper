@@ -3,7 +3,7 @@
 To run the local engine server:
 
 ```
-bundle install –without development test 
+bundle install --without development test
 bundle exec rake doorkeeper:server
 ````
 
